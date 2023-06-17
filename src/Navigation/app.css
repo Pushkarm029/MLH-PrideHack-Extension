@@ -1,0 +1,29 @@
+.Navigation{
+    width: 100%;
+    background-color: black;
+}
+
+.navigationR{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navigationIcons{
+    display: flex;
+    align-items: center;
+}
+
+.navHelpIcon{
+    font-size: 1.15rem;
+    font-weight: 700;
+    color:  white;
+
+}
+
+.navigationIcons p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color:  white;
+}
+

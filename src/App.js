@@ -1,23 +1,27 @@
 import './App.css';
 import React from 'react';
 import Navigation from './Navigation/app';
-import { BrowserRouter as Router, Routes , Route } from 'react-router-dom';
+import Calender from './Calender/app';
+import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
+import Helpline from './Helpline/app';
+import Guide from './Guide/app';
+import News from './News/app';
+import Locator from './Locator/app';
+import Resources from './Resources/app';
 
 function App() {
   return (
     <div className="App">
-          <Router>
-          <Navigation/>
-          <Routes>
-            {/* <Route exact path = '/Landing' element={<Landing/>} /> */}
-            {/* <Route path='/Search' element={<Search />} />
-            <Route path='/Explore' element={<Explore />} />
-            <Route path='/Reels' element={<Reels />} />
-            <Route path='/Messages' element={<Messages />} />
-            <Route path='/Create' element={<Create />} />
-            <Route path='/Profile' element={<Profile />} />
-            <Route path='/More' element={<More />} /> */}
-          </Routes>
+      <Router basename="/">
+        <Navigation/>
+        <Routes>
+          <Route exact path="/" element={<Guide />} />
+          <Route path="/calender" element={<Calender />} />
+          <Route path="/helpline" element={<Helpline />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/locator" element={<Locator />} />
+          <Route path="/resources" element={<Resources />} />
+        </Routes>
       </Router>
     </div>
   );

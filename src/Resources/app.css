@@ -1,0 +1,19 @@
+.resourcesBody{
+    margin: 10px 5px;
+}
+
+.resourcesBody ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.resourcesBody ul a{
+    color: black;
+    font-size: 1.15rem;
+    font-weight: 500;
+}
+
+
+.resourcesBody li {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,92 @@
+.locator{
+    width: 100%;
+    height: 100%;
+}
+
+.locatorBody{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+}
+
+.locatorBody > a {
+    flex-basis: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.locatorBodyTop1,
+.locatorBodyTop2,
+.locatorBodyBottom1,
+.locatorBodyBottom2{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.imagebglocator1,
+.imagebglocator2,
+.imagebglocator3,
+.imagebglocator4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    filter: blur(2px);
+}
+
+.imagebglocator1{
+    background-image: url('./../bg/locator1.jpg'); 
+    /* optimize image */
+}
+
+.imagebglocator2{
+    background-image: url('./../bg/locator2.webp'); 
+    /* optimize image */
+}
+
+.imagebglocator3{
+    background-image: url('./../bg/locator3.webp'); 
+    /* optimize image */
+}
+
+.imagebglocator4{
+    background-image: url('./../bg/locator4.jpeg'); 
+    /* optimize image */
+}
+
+.imagebglocator1::before ,
+.imagebglocator2::before ,
+.imagebglocator3::before ,
+.imagebglocator4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as desired */
+    z-index: 1;
+}
+
+
+
+.content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
