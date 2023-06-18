@@ -3,11 +3,9 @@ import { Link } from 'react-router-dom';
 import { IoIosArrowBack } from 'react-icons/io';
 import { IoChevronForward } from 'react-icons/io5';
 import './app.css';
-
 export default function News() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     const fetchData = async () => {
       const url = 'https://lgbtq-world-news-live.p.rapidapi.com/news';
@@ -28,10 +26,8 @@ export default function News() {
         setLoading(false);
       }
     };
-
     fetchData();
   }, []);
-
   return (
     <div className='news'>
       <div className="Header">

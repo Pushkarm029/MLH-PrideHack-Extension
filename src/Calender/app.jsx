@@ -10,7 +10,6 @@ export default function CalendarComponent() {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    // Fetch event data from the JSON file
     fetch("/events.json")
       .then((response) => response.json())
       .then((data) => setEvents(data))

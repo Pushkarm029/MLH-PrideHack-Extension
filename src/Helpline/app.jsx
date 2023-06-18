@@ -33,7 +33,6 @@ export default function Helpline() {
                     </div>
                     <p className="countryHelpPhoneNumber">9930095856</p>
                 </div>
-                {/* https://www.youtube.com/watch?v=bMq2riFCF90  check it out later */}
                 <div className="HelplineBodyEmail">
                     <div className="emailIconHelp">
                         <MdEmail size= {iconsize} color={iconcolor} style={{ paddingLeft: iconpadding, paddingRight: iconpadding, paddingTop: iconpadding, paddingBottom: iconpadding }}/>
