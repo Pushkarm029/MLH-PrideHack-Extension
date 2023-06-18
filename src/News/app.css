@@ -41,7 +41,7 @@
     width: 150px;
     height: 100px;
     background-color: #F0017F;
-    background-image: linear-gradient(to right, #F0017F, #FF8C00, #FFEF00, #008000, #40E0D0, #0000FF, #8B00FF);
+    background-image: linear-gradient(to right, #F0017F, #FF8C00, #FFEF00, #008000, #40E0D0, #0000FF, #8B00FF, #0000FF, #40E0D0, #008000, #FFEF00, #FF8C00, #F0017F);
     background-size: 1400% 100%;
     animation: waving-flag 2s infinite;
     border-radius: 5px;

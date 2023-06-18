@@ -28,6 +28,7 @@ export default function Guide() {
             </div>
             <div className="guideBodyPO">
                 <div className="guideBodyPOP">
+                {/* target="_blank" */}
                     Defination
                 </div>
                 <div className="guideBodyPOP">

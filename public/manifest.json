@@ -2,6 +2,9 @@
   "name": "Chrome React SEO Extension",
   "description": "The power of React and TypeScript for building interactive Chrome extensions",
   "version": "1.0",
+  "permissions": [
+      "geolocation"
+  ],
   "manifest_version": 3,
   "action": {
       "default_popup": "index.html",

@@ -61,7 +61,7 @@ export default function News() {
               <h2>{item.title}</h2>
               <div className='newsBodyCardBottom'>
                 <p>{item.source}</p>
-                <a href={item.url}>Read More...</a>
+                <a href={item.url} target="_blank">Read More...</a>
               </div>
             </div>
           ))

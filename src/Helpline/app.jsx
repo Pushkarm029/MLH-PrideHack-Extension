@@ -26,14 +26,14 @@ export default function Helpline() {
                     <div className="countryFlagHelp">
                         🇮🇳
                     </div>
-                    <h3>9930095856</h3>
+                    <p>9930095856</p>
                 </div>
                 {/* https://www.youtube.com/watch?v=bMq2riFCF90  check it out later */}
                 <div className="HelplineBodyEmail">
                     <div className="emailIconHelp">
                         <MdEmail/>
                     </div>
-                    <h3>helpline@lgbt.foundation</h3>
+                    <p>helpline@lgbt.foundation</p>
                 </div>
             </div>
         </div>
