@@ -4,6 +4,7 @@ import Calendar from "react-calendar";
 import { Link } from "react-router-dom";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoChevronForward } from "react-icons/io5";
+import "./app.css";
 
 export default function CalendarComponent() {
   const [events, setEvents] = useState([]);
@@ -24,13 +25,14 @@ export default function CalendarComponent() {
             <IoIosArrowBack />
           </div>
         </Link>
-        <p>Calendar</p>
+        <p>🏳️‍🌈 Calendar</p>
         <Link to="/">
           <div className="forwardarrow">
             <IoChevronForward />
           </div>
         </Link>
       </div>
+      <div className="calendarBody">
       <Calendar
         tileContent={({ date }) => {
           const event = events.find(
@@ -47,6 +49,7 @@ export default function CalendarComponent() {
           return event && <div className="event-marker">{event.name}</div>;
         }}
       />
+      </div>
     </div>
   );
 }

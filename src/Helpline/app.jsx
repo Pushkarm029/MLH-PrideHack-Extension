@@ -19,7 +19,7 @@ export default function Helpline() {
                         <IoIosArrowBack/>
                     </div>
                 </Link>
-                <p>Helpline</p>
+                <p>🏳️‍🌈 Helpline</p>
                 <Link to="/calender">
                     <div className="forwardarrow">
                         <IoChevronForward/>

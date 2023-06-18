@@ -20,7 +20,7 @@ export default function Locator() {
                         <IoIosArrowBack/>
                     </div>
                 </Link>
-                <p>Locator</p>
+                <p>🏳️‍🌈 Locator</p>
                 <Link to="/news">
                     <div className="forwardarrow">
                         <IoChevronForward/>

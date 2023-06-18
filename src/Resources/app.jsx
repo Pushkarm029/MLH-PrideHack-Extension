@@ -13,7 +13,7 @@ export default function Resources() {
                     <IoIosArrowBack/>
                 </div>
             </Link>
-            <p>Resources</p>
+            <p>🏳️‍🌈 Resources</p>
             <Link to="/helpline">
                 <div className="forwardarrow">
                     <IoChevronForward/>

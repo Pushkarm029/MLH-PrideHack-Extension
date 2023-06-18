@@ -1,3 +1,5 @@
+
+
 .guideBodyImage img{
     width: 100%;
 }
@@ -23,12 +25,18 @@
 }
 
 .guideBodyPOT{
-    width: 100%;
+    width: 95%;
     display: flex;
     justify-content: center;
     padding: 15px;
     font-size: 1.2rem;
     font-weight: 600;
+    background-color: #00125D;
     /* border-radius: 10px;
     background-color: blueviolet; */
+}
+
+.guideBodyPOT p{
+    font-size: 1.1rem;
+    color: white;
 }

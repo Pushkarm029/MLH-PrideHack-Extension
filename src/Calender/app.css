@@ -1,0 +1,26 @@
+.calendarBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.2);
+    margin-top: 65px;
+}
+
+abbr {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.event-marker{
+    font-size: 0.6rem;
+    font-weight: 700;
+}
+
+
+.react-calendar__month-view__days__day--weekend {
+    color: #000000;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+    color: #757575;
+}

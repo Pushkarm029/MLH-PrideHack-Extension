@@ -15,7 +15,7 @@ export default function Guide() {
                     <IoIosArrowBack/>
                 </div>
             </Link>
-            <p>🏳️‍🌈Guide</p>
+            <p> 🏳️‍🌈 Guide</p>
             <Link to="/locator">
                 <div className="forwardarrow">
                     <IoChevronForward/>

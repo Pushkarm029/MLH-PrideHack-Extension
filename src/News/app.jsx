@@ -40,7 +40,7 @@ export default function News() {
             <IoIosArrowBack/>
           </div>
         </Link>
-        <p>News</p>
+        <p>🏳️‍🌈 News</p>
         <Link to="/resources">
           <div className="forwardarrow">
             <IoChevronForward/>
