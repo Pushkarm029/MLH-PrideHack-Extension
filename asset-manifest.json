@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MLH-PrideHack-Extension/static/css/main.f6c5a70f.css",
+    "main.js": "/MLH-PrideHack-Extension/static/js/main.5fcc4a36.js",
+    "static/js/787.28cb0dcd.chunk.js": "/MLH-PrideHack-Extension/static/js/787.28cb0dcd.chunk.js",
+    "static/media/locator2.webp": "/MLH-PrideHack-Extension/static/media/locator2.5540d3c3ce2e2f482bdd.webp",
+    "static/media/locator1.jpg": "/MLH-PrideHack-Extension/static/media/locator1.b46a37049abb65e5fd3d.jpg",
+    "static/media/locator3.webp": "/MLH-PrideHack-Extension/static/media/locator3.134d61b0ddafebaaa59f.webp",
+    "static/media/locator4.jpeg": "/MLH-PrideHack-Extension/static/media/locator4.f689a26cb393615373ec.jpeg",
+    "index.html": "/MLH-PrideHack-Extension/index.html",
+    "main.f6c5a70f.css.map": "/MLH-PrideHack-Extension/static/css/main.f6c5a70f.css.map",
+    "main.5fcc4a36.js.map": "/MLH-PrideHack-Extension/static/js/main.5fcc4a36.js.map",
+    "787.28cb0dcd.chunk.js.map": "/MLH-PrideHack-Extension/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6c5a70f.css",
+    "static/js/main.5fcc4a36.js"
+  ]
+}
