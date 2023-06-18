@@ -15,7 +15,7 @@
 
 <br>
 
-#### You can Access it as a WebApp [Here](https://pushkarm029.github.io/MLH-PrideHack-Extension/) ***ReactJS***
+#### You can Access it as a WebApp [Here](https://pushkarm029.github.io/MLH-PrideHack-Extension/)
 
 <br>
 
