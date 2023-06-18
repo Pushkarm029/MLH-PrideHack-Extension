@@ -6,6 +6,11 @@ import {MdEmail} from "react-icons/md";
 import {Link} from "react-router-dom";
 
 export default function Helpline() {
+    const iconpadding = '20px';
+    const iconsize = '60';
+    const iconcolor = 'black';
+    const countryCode = 'IN';
+    const countryFlag = `https://flagsapi.com/${countryCode}/flat/64.png`;
     return (
         <div className="Helpline">
             <div className="Header">
@@ -24,16 +29,16 @@ export default function Helpline() {
             <div className="HelplineBody">
                 <div className="HelplineBodyNumber">
                     <div className="countryFlagHelp">
-                        🇮🇳
+                        <img src={countryFlag}/>
                     </div>
-                    <p>9930095856</p>
+                    <p className="countryHelpPhoneNumber">9930095856</p>
                 </div>
                 {/* https://www.youtube.com/watch?v=bMq2riFCF90  check it out later */}
                 <div className="HelplineBodyEmail">
                     <div className="emailIconHelp">
-                        <MdEmail/>
+                        <MdEmail size= {iconsize} color={iconcolor} style={{ paddingLeft: iconpadding, paddingRight: iconpadding, paddingTop: iconpadding, paddingBottom: iconpadding }}/>
                     </div>
-                    <p>helpline@lgbt.foundation</p>
+                    <p className="countryHelpEmailID">helpline@lgbt.foundation</p>
                 </div>
             </div>
         </div>

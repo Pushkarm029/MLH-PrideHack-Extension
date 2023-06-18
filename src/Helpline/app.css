@@ -1,0 +1,28 @@
+.HelplineBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.HelplineBodyNumber, .HelplineBodyEmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.countryHelpPhoneNumber, .countryHelpEmailID{
+    font-size: 2rem;
+    font-weight: 600;    
+}
+
+.countryFlagHelp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+} 
