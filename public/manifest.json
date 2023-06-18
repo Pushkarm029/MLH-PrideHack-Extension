@@ -1,6 +1,6 @@
 {
-  "name": "Chrome React SEO Extension",
-  "description": "The power of React and TypeScript for building interactive Chrome extensions",
+  "name": "https://drive.google.com/file/d/1Z8vCNGXRVsjp2_JCkzu_e98QpPWNBkln/view?usp=sharing",
+  "description": "The Pride Extension to help LGBTQ+ community",
   "version": "1.0",
   "permissions": [
       "geolocation"
@@ -11,8 +11,8 @@
       "default_title": "Open the popup"
   },
   "icons": {
-      "16": "logo192.png",
-      "48": "logo192.png",
-      "128": "logo192.png"
+      "16": "flag.png",
+      "48": "flag.png",
+      "128": "flag.png"
   }
 }
