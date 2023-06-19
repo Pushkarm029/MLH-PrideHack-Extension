@@ -28,7 +28,7 @@ export default function Guide() {
             </div>
             <div className="guideBodyPO">
                 <a className="guideBodyPOP" href="https://en.wikipedia.org/wiki/LGBT" target="_blank">
-                    Defination
+                    Definition
                 </a>
                 <a className="guideBodyPOP" href="https://www.stonewall.org.uk/list-lgbtq-terms" target="_blank">
                     Terminology
